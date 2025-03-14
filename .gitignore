@@ -1,16 +1,16 @@
-# Compiled class files
+# Ignore compiled Java class files
 *.class
 
-# Log files
+# Ignore log files
 *.log
 
-# BlueJ files
+# Ignore BlueJ project files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Ignore Mobile Tools for Java (J2ME) files
 .mtj.tmp/
 
-# Package Files #
+# Ignore package files
 *.jar
 *.war
 *.nar
@@ -19,41 +19,42 @@
 *.tar.gz
 *.rar
 
-# Maven
+# Ignore Maven directories and files
 /poo-unifal/MyFirstMavenProject/target/
-/poo-unifal/MyFirstMavenProject/.mvn
+/poo-unifal/MyFirstMavenProject/.mvn/
 /poo-unifal/MyFirstMavenProject/mvnw
 /poo-unifal/MyFirstMavenProject/mvnw.cmd
 
-# Gradle
-/.gradle/
-build/
-*.gradle
-
-### IntelliJ IDEA ###
-/poo-unifal/poo-intellij/*.idea/modules.xml
-/poo-unifal/poo-intellij/*.idea/jarRepositories.xml
-/poo-unifal/poo-intellij/*.idea/compiler.xml
-/poo-unifal/poo-intellij/*.idea/libraries/
-/poo-unifal/poo-intellij/*.idea/workspace.xml
-/poo-unifal/poo-intellij/*.idea/tasks.xml
-/poo-unifal/poo-intellij/*.idea/gradle.xml
-/poo-unifal/poo-intellij/*.iws
+# Ignore IntelliJ IDEA project files
+/poo-unifal/MyFirstMavenProject/.idea/
+/poo-unifal/poo-intellij/.idea/
 /poo-unifal/poo-intellij/*.iml
-/poo-unifal/poo-intellij/*.ipr
 
-### Eclipse ###
-/poo-unifal/poo-eclipse/*.apt_generated
-/poo-unifal/poo-eclipse/*.classpath
-/poo-unifal/poo-eclipse/*.factorypath
+# Ignore Eclipse project files
+/poo-unifal/poo-eclipse/.metadata/
 /poo-unifal/poo-eclipse/*.project
-/poo-unifal/poo-eclipse/*.settings
-/poo-unifal/poo-eclipse/*.springBeans
-/poo-unifal/poo-eclipse/*.sts4-cache
+/poo-unifal/poo-eclipse/*.classpath
+/poo-unifal/poo-eclipse/.settings/
 
-# VS Code
-.vscode/
+/poo-unifal/poo-intellij/.classpath
+/poo-unifal/poo-intellij/.project
+/poo-unifal/poo-intellij/MavenIntelliJ
+/poo-unifal/poo-intellij/HelloCruelWorld
 
-# Virtual machine crash logs
+# Ignore VS Code project files
+/poo-unifal/.vscode/
+
+# Ignore temporary or system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+/.idea/
+/.vscode/
+
+# Ignore all .git directories
+.git/
+
+# Ignore virtual machine crash logs
 *hs_err_pid*
 *replay_pid*
